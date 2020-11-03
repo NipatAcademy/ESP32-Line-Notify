@@ -29,11 +29,11 @@ void loop() {
   delay(1000);
   if ( CHECK == true && digitalValue == 0 ) {
     CHECK = false;
-    LINE.notify(" H2S Alarm Contect : Khun Nattawut 093-319-0902 , Khun Kittisak 086-407-4897 , Khun Jaruwan 083-569-9619 ");
+    LINE.notify(" Alarm ");
     Serial.println("Alarm");
   }
   if ( CHECK == false && digitalValue == 1 ) {
-    LINE.notify(" H2S Normal");
+    LINE.notify(" Normal ");
     Serial.println("Normal");
     CHECK = true;
   }
