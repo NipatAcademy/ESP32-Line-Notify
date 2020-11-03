@@ -1,7 +1,7 @@
 #include <TridentTD_LineNotify.h>
-#define SSID        "IS-BP Staff"
-#define PASSWORD    "ISwifi03"
-#define LINE_TOKEN  "8ECib24EEITYQvLwg1GIYZX9baWeiRJgehiVW5TEe5r"
+#define SSID        " Your SSID "
+#define PASSWORD    " Your Password"
+#define LINE_TOKEN  " Your Token "
 bool CHECK = true;
 int digitalValue;
 
